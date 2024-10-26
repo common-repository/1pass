@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/1Pass/1pass-common"
+        }
+    ],
+    "require": {
+        "onepass/common": "dev-master"
+    },
+    "require-dev": {
+        "fguillot/picofeed": "^0.1.15"
+    }
+}

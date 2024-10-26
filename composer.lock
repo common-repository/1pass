@@ -1,0 +1,144 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c1980bf03caa5c88f90312ed81c4ac7d",
+    "content-hash": "cac453f17629534d46476f47c6fc0e07",
+    "packages": [
+        {
+            "name": "onepass/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/1Pass/1pass-common",
+                "reference": "3c58010e8bb0b2d55f39c55e46dcd027d35b59dd"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Onepass": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jake Benilov",
+                    "email": "jake@1pass.me"
+                }
+            ],
+            "description": "Helpers for building 1Pass plugins",
+            "time": "2016-02-22 13:57:54"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "fguillot/picofeed",
+            "version": "v0.1.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fguillot/picoFeed.git",
+                "reference": "c270ef4474a2460d857f99c84612025c5f9975f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fguillot/picoFeed/zipball/c270ef4474a2460d857f99c84612025c5f9975f2",
+                "reference": "c270ef4474a2460d857f99c84612025c5f9975f2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "ext-xml": "*",
+                "php": ">=5.3.0",
+                "zendframework/zendxml": "^1.0"
+            },
+            "suggest": {
+                "ext-curl": "PicoFeed will use cURL if present"
+            },
+            "bin": [
+                "picofeed"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PicoFeed": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Guillot"
+                }
+            ],
+            "description": "Modern library to handle RSS/Atom feeds",
+            "homepage": "https://github.com/fguillot/picoFeed",
+            "time": "2016-02-11 19:52:02"
+        },
+        {
+            "name": "zendframework/zendxml",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/ZendXml.git",
+                "reference": "7b64507bc35d841c9c5802d67f6f87ef8e1a58c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/7b64507bc35d841c9c5802d67f6f87ef8e1a58c9",
+                "reference": "7b64507bc35d841c9c5802d67f6f87ef8e1a58c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3.7 || ^4.0",
+                "squizlabs/php_codesniffer": "^1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "ZendXml\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Utility library for XML usage, best practices, and security in PHP",
+            "homepage": "http://packages.zendframework.com/",
+            "keywords": [
+                "security",
+                "xml",
+                "zf2"
+            ],
+            "time": "2016-02-04 21:02:08"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "onepass/common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

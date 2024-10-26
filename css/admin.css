@@ -1,0 +1,109 @@
+/* Hide unnecessary parts WP adds to the 1Pass metabox */
+#taxonomy-1pass .wp-hidden-children, #taxonomy-1pass .tabs, #taxonomy-1pass .hide-if-no-js {
+  display: none;
+}
+
+.onepass-diagram img {
+  padding: 4px;
+  border: 1px solid #999;
+}
+
+.onepass-diagram .caption {
+  margin-top: 0px;
+  font-style:italic;
+}
+
+.onepass-credentials input {
+  font-family: monospace;
+}
+
+.onepass-settings-block {
+  background-color: white;
+  padding: 10px 23px;
+  border: 1px solid #e1e1e1;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.onepass-settings-block.lead {
+  background-color: #F8D548;
+  font-size: 2.5em;
+}
+
+.onepass-settings-block p {
+  font-size: 15px;
+}
+
+.onepass-settings-block .working-message {
+  color: #46b450;
+}
+
+.onepass-settings-block #message {
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-left: 0;
+}
+
+.onepass-settings-block table th {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.onepass-settings-block.minor table th {
+  font-size: 13px;
+}
+
+.onepass-settings-block .toggle {
+  cursor: pointer;
+}
+
+
+.onepass-settings-block img {
+  width: 65%;
+}
+
+@media screen and (max-width: 502px) {
+  .onepass-settings-block h2 {
+    line-height: 54px;
+  }
+  .onepass-settings-block img {
+    width: 100%;
+  }
+}
+
+
+.onepass-settings-block .toggle:before {
+  content: '▶';
+  color: #999;
+  font-size: 17px;
+  padding-right: 20px;
+}
+
+.onepass-settings-block .toggle.opened:before {
+  content: '▼';
+}
+
+
+.onepass-settings-block .notice {
+  /* margin: 5px 21px 2px 3px; */
+}
+
+#api-keys-form {
+  display: none;
+}
+
+#api-keys-form.show {
+  display: block;
+}
+
+.onepass-settings-block #advanced-options,
+.onepass-settings-block #api-keys
+ {
+  display: none;
+}
+
+.api-keys input {
+  padding: 10px;
+}
